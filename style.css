@@ -1,0 +1,713 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: snow;
+    align-items: center;
+}
+.ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links:hover {
+    color: blue;
+    transform: scale(1.1);
+}
+.item:hover {
+    transform: scale(1.1);
+}
+.item {
+    margin-right: 20px;
+    transition: 0.3s all linear;
+    list-style: none;
+    text-transform: uppercase;
+}
+.links {
+    text-decoration: none;
+    transition: 0.3s all linear;
+    color: black;
+    transition: 0.3s all linear;
+}
+.icon {
+    color: white;
+    text-align: center;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: blue;
+    padding: 13px 16px;
+    color: white;
+}
+.bosh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: skyblue;
+    padding: 4px;
+    border-radius: 50%;
+}
+.link1 {
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.lnk {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s all linear;
+}
+.lnk:hover {
+    color: dodgerblue;
+}
+.tepa {
+    background-image: url(section-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 100px;
+}
+.h3, .h2, .lorem {
+    color: white;
+}
+.div {
+    line-height: 1.3;
+    font-size: 20px;
+}
+.down {
+    margin-top: 120px;
+}
+.h1 {
+    color: dodgerblue;
+    font-size: 45px;
+}
+.lorem {
+    font-size: 15px;
+    width: 350px;
+}
+.pp {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}
+.h21 {
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+}
+.ul1 {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.center {
+    padding: 20px 150px;
+}
+.input {
+    padding: 15px;
+    width: 90%;
+}
+.link2 {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.center1 {
+    display: flex;
+    align-items: center;
+    margin: 70px 0;
+    line-height: 1.3;
+    font-size: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 150px;
+}
+.pic {
+    border: 3px solid black;
+    display: block;
+    height: 600px;
+}
+.imgg {
+    margin-right: 40px;
+    border: 3px solid black;
+    padding: 5px;
+}
+.bottom {
+    width: 50%;
+}
+.h1 {
+    color: orange;
+    text-transform: uppercase;
+}
+.p {
+    color: grey;
+}
+.link3 {
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.div0 {
+    display: flex;
+    justify-content: flex-end;      
+    align-items: center;
+}
+.pic1 {
+    display: block;
+    border: 1px solid black;
+    width: 100%;
+}
+.rasm {
+    border: 1px solid black;
+    padding: 8px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgbox {
+    position: relative;
+}
+.layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s all linear;
+}
+.rasm:hover .layer {
+    opacity: 1;
+}
+.layerlink {
+    display: inline-block;
+    text-decoration: none;
+    padding: 17px 20px;
+    text-transform: uppercase;
+    color: white;
+    border: 3px solid white;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.divrasm {
+    width: 31%;
+    margin-top: 35px;
+}
+.center2 {
+    text-align: center;
+    padding: 40px 200px;
+}
+.tasvir {
+    color: dodgerblue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.destination {
+    color: white;
+    background-color: dodgerblue;
+    text-decoration: none;
+    padding: 10px 22px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+@media (max-width:1300px){
+    .center1 {
+        justify-content: center;
+    }
+}
+@media (max-width:890px){
+    .center1 {
+        padding: 0 80px;
+    }
+.box {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.center1 {
+    font-size: 17px;
+
+}
+.div {
+    font-size: 14px;
+}
+.ul {
+    width: 100%;
+}
+.center {
+    padding: 20px 50px;
+}
+.item {
+    align-items: center;
+}
+.center2 {
+    padding: 20px 70px;
+}
+
+.div0 {
+    justify-content: center;
+}
+.imgg {
+    margin-right: 18px;
+}
+.tepa {
+    padding: 10px 40px;
+    font-size: 13px;
+}
+}
+@media (max-width:670px){
+    .item {
+        width: 30%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .box {
+        padding: 14px 30px;
+    }
+    .center {
+        padding: 20px 40px;
+    }
+    .ul {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .center2 {
+        padding: 20px 40px;
+    }
+    .center1 {
+        font-size: 15px;
+        padding: 0 40px;
+    }
+    .imgg {
+        margin-right: 12px;
+    }
+    .center1 {
+        margin: 0;
+    }
+}
+@media (max-width:500px){
+    .center {
+        padding: 10px 20px;
+    }
+    .center1 {
+        padding: 0 40px;
+    }
+    .h1 {
+        font-size: 25px;
+    }
+    .item1 {
+        width: 30%;
+        margin-top: 10px;
+    }
+    .ul1 {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .link {
+        width: 100%;
+    }
+    .h {
+        font-size: 30px;
+    }
+    .tasvir {
+        font-size: 12px;
+    }
+    .divrasm {
+        width: 50%;
+    }
+    .imgg {
+        margin-right: 8px;
+    }
+    .tepa {
+        text-align: center;
+    }
+    .center1 {
+        margin: 0;
+    }
+}
+@media (max-width:360px){
+    .h1 {
+        font-size: 10px;
+    }
+        .item {
+        width: 100%;
+    }
+    .item1 {
+        width: 100%;
+    }
+    .ul1 {
+        justify-content: center;
+    }
+    .input {
+        width: 100%;
+    }
+    .link2 {
+        width: 100%;
+    }
+    
+    .divrasm {
+        width: 100%;
+    }
+    .imgg {
+        margin-right: 0;
+    }
+    .center1 {
+        margin: 0;
+    }
+}
+.box1 {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(205, 202, 202, 0.485);
+}
+.quticha {
+    background-color: rgb(218, 214, 214);
+    padding: 15px;
+    height: auto;
+    width: 33.33%;
+}
+.oqquti {
+    background-color: white;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    flex-wrap: wrap;
+}
+.kulrangquti {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.qutilar {
+    border: 1px solid silver;
+    max-width: 1250px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.orange {
+    color: orange;
+}
+.blue {
+    color: blue;
+    text-transform: uppercase;
+}
+.o {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.or {
+    width: 100%;
+}
+.box2 {
+    background-image: url(manzara1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.ong {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 50%;
+    padding: 100px 50px;
+    text-align: center;
+}
+.h22 {
+    text-transform: uppercase;
+}
+.box3 {
+    text-align: center;
+    padding: 40px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.sarlavha {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.int {
+    width: 30%;
+    padding: 20px;
+}
+.btn {
+    display: inline-block;
+    color: white;
+    background-color: blue;
+    text-transform: uppercase;
+    padding: 20px;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+.pic4 {
+    font-size: 50px;
+    padding: 70px 0;
+    border: none;
+}
+.pic2 {
+    height: 80px;
+}
+.icon1 {
+    color: skyblue;
+    margin-right: 12px;
+}
+.h5 {
+    text-transform: uppercase;
+}
+.kok {
+    text-decoration: none;
+    color: skyblue;
+}
+.box4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgba(192, 192, 192, 0.333);
+    padding: 40px 120px;
+}
+.flexqism {
+    margin-bottom: 15px;
+}
+.div1 {
+    width: 32%;
+    font-size: 15px;
+}
+.div2 {
+    display: flex;
+    margin-bottom: 15px;
+}
+.box5 {
+    background-color: black;
+    color: silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 125px;
+    font-size: 14px;
+}
+.ul2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.item2 {
+    margin-right: 20px;
+}
+.sariq {
+    text-decoration: none;
+    color: orange;
+}
+.iconlar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon2 {
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.ikonkalar {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+@media(max-width:1250px){
+    .qutilar {
+        flex-wrap: wrap;
+    }
+    .oqquti {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .o {
+        width: 100%;
+    }
+    .kulrangquti {
+        width: 100%;
+    }
+    .int {
+        width: 60%;
+    }
+}
+@media(max-width:600px){
+    .quticha {
+        width: 100%;
+    }
+}
+@media(max-width:900px){
+    .ong {
+        width: 100%;
+    }
+    .form {
+        flex-wrap: wrap;
+    }
+    .btnbox {
+        width: 100%;
+    }
+    .btn, .int {
+        width: 70%;
+    }
+}
+@media(max-width:1450px){
+    .box4 {
+        padding: 40px 60px;
+    }
+}
+@media(max-width:1100px){
+    .div1 {
+        width: 50%;
+    }
+    .box4 {
+        justify-content: center;
+    }
+    .center2 {
+        padding: 30px 150px;
+    }
+}
+@media(max-width:1000px){
+    .div1 {
+        width: 100%;
+    }
+    .box5 {
+        padding: 15px 40px;
+    }
+    .center1 {
+        padding: 0 50px;
+    }
+}
+@media(max-width:900px){
+    .box5 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .iconlar {
+        width: 100%;
+        justify-content: center;
+    }
+    .copyright {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .box3 {
+        padding: 20px;
+    }
+    .center2 {
+        padding: 20px 100px;
+    }
+}
+@media(max-width:500px){
+    .int, .btn {
+        width: 100%;
+    }
+    
+}
+@media(max-width:700px){
+    .divrasm {
+        width: 48%;
+    }
+    .center2 {
+        padding: 20px 50px;
+    }
+    .center1 {
+        margin: 0;
+    }
+    .bottom {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media(max-width:400px){
+    .divrasm {
+        width: 100%;
+    }
+    .center2 {
+        padding: 15px 30px;
+    }
+    .flex {
+        justify-content: center;
+    }
+    .center1 {
+        margin: 0;
+        padding: 0 20px;
+    }
+    .bottom {
+        width: 100%;
+    }
+    .pic {
+        height: 400px;
+    }
+    .ong {
+        padding: 25px 15px;
+    }
+    .tepa {
+        padding: 14px;
+    }
+}
